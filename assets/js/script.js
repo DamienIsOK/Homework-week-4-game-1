@@ -2,9 +2,9 @@
 ///////////////////////////// Jemma's JS Code below//////////////////////////////////
 var characters = {
 	obiWan: {
-		displayName: 'Obi-Wan Kenobi',
+		displayName: 'Obi-Wan Shenobi',
 		js_name: 'obiWan',
-		hp: 150,
+		hp: 550,
 		counter: function(enemy) {
 			enemy.hp -= 5;
 		},
@@ -14,9 +14,9 @@ var characters = {
 		img_url: "assets/images/obiwan.jpg"
 	},
 	yoda: {
-		displayName: 'Yoda',
+		displayName: 'Yoda Boda',
 		js_name: 'yoda',
-		hp: 200,
+		hp: 600,
 		counter: function(enemy) {
 			enemy.hp -= 4;
 		},
@@ -26,9 +26,9 @@ var characters = {
 		img_url: "assets/images/yoda.jpg"
 	},
 	vader: {
-		displayName: 'Darth Vader',
+		displayName: 'Darth Vader Is Paul McCartney',
 		js_name: 'vader',
-		hp: 180,
+		hp: 580,
 		counter: function(enemy) {
 			enemy.hp -= 4;
 		},
@@ -38,9 +38,9 @@ var characters = {
 		img_url: "assets/images/vader.jpg"
 	},
 	maul: {
-		displayName: 'Darth Maul',
+		displayName: 'Darth Maul is John Lennon',
 		js_name: 'maul',
-		hp: 160,
+		hp: 560,
 		counter: function(enemy) {
 			enemy.hp -= 8;
 		},
